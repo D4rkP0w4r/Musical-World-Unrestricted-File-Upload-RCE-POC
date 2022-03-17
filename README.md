@@ -1,5 +1,5 @@
 # Musical-World-Unrestricted-File-Upload-RCE-POC
-* `Note` Login to client 
+* `Note` Login to client. don't need login to admin 
 * `Description` Upload web shell at `Uploaded_Songs` 
 # Step to Reproduct
 * Login to user -> `TRACK` -> `Uploaded_Songs` -> `Choose File` -> `UPLOAD` ->  access `/songs/uploaded_songs/shell.php` 
